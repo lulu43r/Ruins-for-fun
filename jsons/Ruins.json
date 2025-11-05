@@ -3,13 +3,11 @@
      "name":  "a tiny stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
      "uniques": ["Gain [250]-[2000] [Gold]",
-     "color": "#ffeb7f"
   },
   { 
      "name": "discover minimal cultural signs",
      "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
      "uniques": ["Gain [100]-[1000] [Culture]"],
-     "color": "#cf8ff7"
   },
   { 
      "name": "discover minor research", 
@@ -35,6 +33,5 @@
         "name": "survivors (adds population to a city)",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
         "uniques": ["[+3] population in a random city"],
-		    "color": "#81c784"
     }
 ]
