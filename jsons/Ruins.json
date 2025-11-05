@@ -25,9 +25,9 @@
   },
    { 
      "name": "discover big phenomen", 
-     "notification": "Science product 100", 
+     "notification": "Food is also Science", 
      "weight": 20
-     "uniques": ["[+15]% [Science] "]         
+     "uniques": ["[+1 Science] from every [Pasture]"]         
   },
   { 
      "name": "find a crudely-draw map", 
