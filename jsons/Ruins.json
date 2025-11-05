@@ -27,7 +27,7 @@
      "name": "find a crudely-draw map", 
      "notification": "We have found a old area map in the ruins!",
          "weight": 5
-     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [10] tiles away with [30]% chance"] 
+     "uniques": ["From a randomly chosen tile [7] tiles away from the ruins, reveal tiles up to [15] tiles away with [50]% chance"] 
   },
   {
         "name": "your exploring unit receives training",
