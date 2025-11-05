@@ -2,7 +2,6 @@
   {
      "name":  "a tiny stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
-     "weight": 10
      "uniques": ["Gain [250]-[2000] [Gold]"],
   },
   { 
@@ -12,14 +11,15 @@
   },
   { 
      "name": "discover minor research", 
-     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
-     "uniques": ["Gain [100]-[3000] [Science]"]         
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)",
+     "weight": 10
+     "uniques": ["Gain [500]-[1000] [Science]"]         
   }, 
   { 
      "name": "discover ancient technology", 
      "notification": "We have discovered a technology from the ALL area in the ruins!",
      "weight": 10
-     "uniques": ["[5] free random researchable Tech(s) in Industrial era"]         
+     "uniques": ["[1] free random researchable Tech(s) in [Industrial era]"]         
   }, 
   { 
      "name": "find a big, big map", 
