@@ -1,0 +1,41 @@
+
+[ 
+  {
+     "name":  "a tiny stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+     "uniques": ["Gain [250]-[2000] [Gold]",
+     "color": "#ffeb7f"
+  },
+  { 
+     "name": "discover minimal cultural signs",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+     "uniques": ["Gain [100]-[1000] [Culture]"],
+     "color": "#cf8ff7"
+  },
+  { 
+     "name": "discover minor research", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
+     "uniques": ["Gain [100]-[3000] [Science]"]         
+  }, 
+  { 
+     "name": "discover ancient technology", 
+     "notification": "We have discovered a technology from the ALL area in the ruins!", 
+     "uniques": ["[1]-[5] free random researchable Tech(s)"]         
+  }, 
+  { 
+     "name": "find a big, big map", 
+     "notification": "We have found a old area map in the ruins!", 
+     "uniques": ["From a randomly chosen tile [10] tiles away from the ruins, reveal tiles up to [20] tiles away with [25]% chance"] 
+  },
+  {
+        "name": "your exploring unit receives training",
+        "notification": "An ancient tribe trained us in their ways of combat!",
+        "uniques": ["[This Unit] gains [25]-[100] XP"]
+  },
+  {
+        "name": "survivors (adds population to a city)",
+        "notification": "We have found survivors in the ruins! Population added to [cityName].",
+        "uniques": ["[+2]-[+5] population in a random city"],
+		    "color": "#81c784"
+    }
+]
