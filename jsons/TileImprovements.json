@@ -6,8 +6,7 @@
     [
      "Unpillagable", 
      "Provides a random bonus when entered", 
-     "Unbuildable",
-     "Removes removable features when built"
+     "Unbuildable"
     ]
   },
 ]
