@@ -27,7 +27,7 @@
      "name": "discover big phenomen", 
      "notification": "Science product 35% in bonus", 
      "weight": 20
-     "uniques": ["[+35]% Sciences [in all cities]"]         
+     "uniques": ["[+35]% [Science] [in all cities]"]         
   },
   { 
      "name": "find a crudely-draw map", 
