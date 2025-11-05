@@ -18,9 +18,17 @@
   { 
      "name": "discover ancient technology", 
      "notification": "We have discovered a technology from the ALL area in the ruins!",
-     "weight": 10
-     "uniques": ["[1] free random researchable Tech(s) in [Industrial era]"]         
-  }, 
+     "weight": 100
+     "uniques": ["[1] free random researchable Tech(s) from the [Medieval era]"],
+    "Only available after [10] turns",
+  },
+    { 
+     "name": "discover ancient technology", 
+     "notification": "We have discovered a technology from the ALL area in the ruins!",
+     "weight": 1000
+     "uniques": ["[1] free random researchable Tech(s) from the [Atomic era]"],
+    "Only available after [20] turns",
+  },
   { 
      "name": "find a big, big map", 
      "notification": "We have found a old area map in the ruins!", 
