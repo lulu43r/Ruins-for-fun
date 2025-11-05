@@ -2,55 +2,49 @@
   {
     "name":  "a stash of gold",
     "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
-    "weight": 2
+    "weight": 10
     "uniques": ["Gain [20]-[2000] [Gold]", "Play [coin] sound"],
   },
   { 
     "name": "discover cultural artifacts",
     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
-    "weight": 2
+    "weight": 10
     "uniques": ["Gain [10]-[1000] [Culture]", "Play [policy] sound"]
-  },
-  { 
-     "name": "discover a lost technology", 
-     "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
-     "weight": 20
-     "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"]         
   },
   { 
      "name": "discover a great person", 
      "notification": "We have discovered a a Great Peson in the ruins!", 
-     "weight": 10
+     "weight": 4
      "uniques": ["Free Great Person"]         
   },
    { 
      "name": "discover big phenomen", 
      "notification": "We have found Science in the ruins!", 
-     "weight": 20
+     "weight": 10
      "uniques": ["Gain [10000] [Science]"]
 },
   { 
      "name": "find a crudely-draw map", 
      "notification": "We have found a old area map in the ruins!",
-         "weight": 1
+         "weight": 5
      "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [10] tiles away with [30]% chance"] 
   },
   {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-         "weight": 1
+         "weight": 5
         "uniques": ["[This Unit] gains [100] XP", "Play [promote] sound"]
   },
   {
         "name": "survivors (adds population to a city)",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
-         "weight": 1
+         "weight": 5
         "uniques": ["[+3] population in a random city", "Play [wagon] sound"]
     },
   {
         "name": "advanced weaponry for your explorer",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "weight": 1
+        "weight": 5
         "uniques": ["[This Unit] upgrades for free including special upgrades"]
     },
     {
