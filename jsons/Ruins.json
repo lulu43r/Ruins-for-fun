@@ -27,7 +27,7 @@
      "name": "discover big phenomen", 
      "notification": "Gold is also Science", 
      "weight": 20
-     "uniques": ["[+1 Science] from every [ALL]"]
+     "uniques": ["[+100] [Science]"]
 },
   { 
      "name": "find a crudely-draw map", 
