@@ -19,12 +19,12 @@
      "name": "discover ancient technology", 
      "notification": "We have discovered a technology from the ALL area in the ruins!",
      "weight": 10
-     "uniques": ["[5] free random researchable Tech(s)"]         
+     "uniques": ["[5] free random researchable Tech(s) in Industrial era"]         
   }, 
   { 
      "name": "find a big, big map", 
      "notification": "We have found a old area map in the ruins!", 
-     "uniques": ["From a randomly chosen tile [10] tiles away from the ruins, reveal tiles up to [20] tiles away with [25]% chance"] 
+     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [10] tiles away with [30]% chance"] 
   },
   {
         "name": "your exploring unit receives training",
