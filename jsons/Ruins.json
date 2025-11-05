@@ -1,33 +1,65 @@
 [ 
   {
-     "name":  "a tiny stash of gold",
-     "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
-     "uniques": ["Gain [250]-[2000] [Gold]"],
+    "name":  "a huge stash of gold",
+    "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
+    "weight": 20
+    "uniques": ["Gain [20]-[2000] [Gold]"],
   },
   { 
-     "name": "discover minimal cultural signs",
-     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
-     "uniques": ["Gain [100]-[1000] [Culture]"],
+    "name": "discover cultural signs",
+    "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+    "weight": 20 
+    "uniques": ["Gain [10]-[1000] [Culture]"],
   },
   { 
-     "name": "discover minor research", 
-     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)",
-     "weight": 10
-     "uniques": ["Gain [500]-[1000] [Science]"]         
-  }, 
+     "name": "discover medieval technology", 
+     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
+     "weight": 20
+     "uniques": ["[1] free random researchable Tech(s) from the [Medieval era]"]                 
+  },
+    { 
+     "name": "discover medieval technology", 
+     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
+     "weight": 20
+     "uniques": ["[1] free random researchable Tech(s) from the [Industrial era]"]                 
+  },
+      { 
+     "name": "discover medieval technology", 
+     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
+     "weight": 20
+     "uniques": ["[1] free random researchable Tech(s) from the [Atomic era]"]                 
+  },
   { 
      "name": "find a big, big map", 
-     "notification": "We have found a old area map in the ruins!", 
+     "notification": "We have found a old area map in the ruins!",
+         "weight": 10
      "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [10] tiles away with [30]% chance"] 
   },
   {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
+         "weight": 10
         "uniques": ["[This Unit] gains [100] XP"]
   },
   {
         "name": "survivors (adds population to a city)",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
+         "weight": 10
         "uniques": ["[+3] population in a random city"]
     }
+    {
+     "name": "squatters wishing to settle under your rule",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "squatters willing to work for you",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "reveal nearby Barbarian camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  }
 ]
