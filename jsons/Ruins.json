@@ -2,7 +2,7 @@
   {
      "name":  "a tiny stash of gold",
      "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-     "uniques": ["Gain [250]-[2000] [Gold]",
+     "uniques": ["Gain [250]-[2000] [Gold]"],
   },
   { 
      "name": "discover minimal cultural signs",
