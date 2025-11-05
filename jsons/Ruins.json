@@ -25,9 +25,9 @@
   },
    { 
      "name": "discover big phenomen", 
-     "notification": "We have found a stash of [ScienceAmount] Science in the ruins!", 
+     "notification": "We have found Science in the ruins!", 
      "weight": 20
-     "uniques": ["Gain [100] [Science]"]
+     "uniques": ["Gain [10000] [Science]"]
 },
   { 
      "name": "find a crudely-draw map", 
