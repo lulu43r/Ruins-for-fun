@@ -27,7 +27,7 @@
      "name": "discover big phenomen", 
      "notification": "We have found a stash of [ScienceAmount] Science in the ruins!", 
      "weight": 20
-     "uniques": ["Gain [500] [Science]"]
+     "uniques": ["Gain [100] [Science]"]
 },
   { 
      "name": "find a crudely-draw map", 
