@@ -27,7 +27,7 @@
      "name": "discover big phenomen", 
      "notification": "Gold is also Science", 
      "weight": 20
-     "uniques": ["[+2 Science] from every [Trading post]"]
+     "uniques": ["May buy [Great Scientist] units for [1000] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500])"]
 },
   { 
      "name": "find a crudely-draw map", 
