@@ -29,10 +29,5 @@
         "name": "survivors (adds population to a city)",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
         "uniques": ["[+3] population in a random city"]
-    },
-  {
-        "name": "elargissement de la portée",
-        "notification": "la portée d'attaque de vos ville ont été augmentés",
-        "uniques": "baseCityBombardRange : [+1] "
-  }
+    }
 ]
