@@ -27,8 +27,8 @@
      "name": "discover big phenomen", 
      "notification": "Food is also Science", 
      "weight": 20
-     "uniques": "[+17]% [Science] from every [Farm]"]         
-  },
+     "uniques": "[+17]% [Science] from every [Farm]"]
+},
   { 
      "name": "find a crudely-draw map", 
      "notification": "We have found a old area map in the ruins!",
