@@ -25,7 +25,7 @@
   },
    { 
      "name": "discover big phenomen", 
-     "notification": "Gold is also Science", 
+     "notification": "We have found a stash of [ScienceAmount] Science in the ruins!", 
      "weight": 20
      "uniques": ["Gain [50] [Science]"]
 },
