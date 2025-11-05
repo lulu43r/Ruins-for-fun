@@ -1,7 +1,8 @@
 [ 
   {
      "name":  "a tiny stash of gold",
-     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
+     "weight": 10
      "uniques": ["Gain [250]-[2000] [Gold]"],
   },
   { 
@@ -16,8 +17,9 @@
   }, 
   { 
      "name": "discover ancient technology", 
-     "notification": "We have discovered a technology from the ALL area in the ruins!", 
-     "uniques": ["[1]-[5] free random researchable Tech(s)"]         
+     "notification": "We have discovered a technology from the ALL area in the ruins!",
+     "weight": 10
+     "uniques": ["[5] free random researchable Tech(s)"]         
   }, 
   { 
      "name": "find a big, big map", 
@@ -27,7 +29,7 @@
   {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["[This Unit] gains [25]-[100] XP"]
+        "uniques": ["[This Unit] gains [100] XP"]
   },
   {
         "name": "survivors (adds population to a city)",
