@@ -25,9 +25,9 @@
   },
    { 
      "name": "discover big phenomen", 
-     "notification": "We have discovered a a Great Peson in the ruins!", 
+     "notification": "Science product 35% in bonus", 
      "weight": 20
-     "uniques": ["Science cost of policies [50]% less than normal"]         
+     "uniques": ["[+35]% sciences [in all cities]"]         
   },
   { 
      "name": "find a crudely-draw map", 
