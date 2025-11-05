@@ -1,58 +1,46 @@
 [ 
   {
-    "name":  "a huge stash of gold",
+    "name":  "a stash of gold",
     "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
     "weight": 2
-    "uniques": ["Gain [20]-[2000] [Gold]"],
+    "uniques": ["Gain [20]-[2000] [Gold]", "Play [coin] sound"],
   },
   { 
-    "name": "discover cultural signs",
+    "name": "discover cultural artifacts",
     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
     "weight": 2
-    "uniques": ["Gain [10]-[1000] [Culture]"],
+    "uniques": ["Gain [10]-[1000] [Culture]", "Play [policy] sound"]
   },
   { 
-     "name": "discover ancient technology", 
+     "name": "discover a lost technology", 
      "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
      "weight": 20
      "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"]         
   },
   { 
-     "name": "discover medieval technology", 
-     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
-     "weight": 20
-     "uniques": ["[1] free random researchable Tech(s) from the [Medieval era]", "Only available <starting from the [Medieval era]>"]                 
-  },
-    { 
-     "name": "discover medieval technology", 
-     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
-     "weight": 20
-     "uniques": ["[1] free random researchable Tech(s) from the [Industrial era]", "Only available <starting from the [Medieval era]>"]                 
-  },
-      { 
-     "name": "discover medieval technology", 
-     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
-     "weight": 20
-     "uniques": ["[1] free random researchable Tech(s) from the [Atomic era]", "Only available <starting from the [Medieval era]>"]                 
-  },
-  { 
-     "name": "find a big, big map", 
+     "name": "find a crudely-draw map", 
      "notification": "We have found a old area map in the ruins!",
          "weight": 1
-     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [10] tiles away with [30]% chance"] 
+     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [8] tiles away with [30]% chance"] 
   },
   {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
          "weight": 1
-        "uniques": ["[This Unit] gains [100] XP"]
+        "uniques": ["[This Unit] gains [100] XP", "Play [promote] sound"]
   },
   {
         "name": "survivors (adds population to a city)",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
          "weight": 1
-        "uniques": ["[+3] population in a random city"]
-    }
+        "uniques": ["[+3] population in a random city", "Play [wagon] sound"]
+    },
+  {
+        "name": "advanced weaponry for your explorer",
+        "notification": "Our unit finds advanced weaponry hidden in the ruins!",
+        "weight": 1
+        "uniques": ["[This Unit] upgrades for free including special upgrades"]
+    },
     {
      "name": "squatters wishing to settle under your rule",
      "weight": 0
@@ -60,6 +48,16 @@
   },
   {
      "name": "squatters willing to work for you",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+    {
+     "name": "discover holy symbols",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+      {
+     "name": "an ancient prophecy",
      "weight": 0
      "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
   },
