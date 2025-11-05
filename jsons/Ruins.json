@@ -25,9 +25,9 @@
   },
    { 
      "name": "discover big phenomen", 
-     "notification": "Food is also Science", 
+     "notification": "Gold is also Science", 
      "weight": 20
-     "uniques": ["[+17]% [Science] from every [Farm]"]
+     "uniques": ["[+2 Science] from every [Trading post]"]
 },
   { 
      "name": "find a crudely-draw map", 
