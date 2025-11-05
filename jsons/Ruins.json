@@ -18,10 +18,16 @@
      "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"]         
   },
   { 
-     "name": "discover a big lost technology", 
-     "notification": "We have discovered a technology from the Classical era in the ruins!", 
+     "name": "discover a great person", 
+     "notification": "We have discovered a a Great Peson in the ruins!", 
+     "weight": 10
+     "uniques": ["Free Great Person"]         
+  },
+   { 
+     "name": "discover big phenomen", 
+     "notification": "We have discovered a a Great Peson in the ruins!", 
      "weight": 20
-     "uniques": ["[1] free random researchable Tech(s) from the [Classical era]"]         
+     "uniques": ["Science cost of policies [50]% less than normal"]         
   },
   { 
      "name": "find a crudely-draw map", 
