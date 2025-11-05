@@ -25,9 +25,9 @@
   },
    { 
      "name": "discover big phenomen", 
-     "notification": "Science product 35% in bonus", 
+     "notification": "Science product 100", 
      "weight": 20
-     "uniques": ["[+1000] [Science]"]         
+     "uniques": ["[+100] Science"]         
   },
   { 
      "name": "find a crudely-draw map", 
